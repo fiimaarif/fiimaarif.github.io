@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serfi;
+}
+h1 {
+  letter-spacing: 1px;
+}
+h2 {
+  letter-spacing: 2px;
+}
+h4 {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+h5 {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+hr {
+  margin: 10px 0;
+}
+ul {
+  padding: 0 20px;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.content-left {
+  width: 40%;
+  border-radius: 10px 0 0 10px;
+  background-color: #dfbb9d;
+}
+.content-left > h1 {
+  text-align: center;
+}
+.content-right {
+  width: 60%;
+  border-radius: 0px 10px 10px 0;
+  background-color: rgb(252, 250, 247);
+}
+.content-left-wrapper {
+  margin: 50px 10px 10px 10px;
+}
+.image {
+  width: 200px;
+  height: 204px;
+  margin: 0 auto;
+  border: 2px solid rgb(119, 117, 117);
+  border-radius: 50%;
+}
+.image img {
+  width: 196px;
+  height: 200px;
+  border-radius: 50%;
+}
+.content-left h4 {
+  color: rgb(99, 95, 95);
+  text-align: left;
+  letter-spacing: 0;
+}
+.content-left p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+.contact-wrapper {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.contact-icon {
+  margin-right: 10px;
+}
+.content-left li {
+  margin: 10px 0;
+}
+.content-right-wrapper {
+  margin: 10px;
+}
+.header {
+  margin-top: 30px;
+}
+.header > h1,
+h2 {
+  text-align: center;
+}
+.header > p {
+  text-align: justify;
+}
+.header > p {
+  margin: 15px 0;
+}
+.row {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.col-7 {
+  width: 90%;
+}
+.col-4 {
+  text-align: end;
+  width: 30%;
+}
+.col-4 > p {
+  font-weight: 600;
+}
+.second-row > p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-left {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .content-right {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+}
